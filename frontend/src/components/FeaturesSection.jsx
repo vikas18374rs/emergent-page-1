@@ -27,6 +27,8 @@ const features = [
 ];
 
 const FeaturesSection = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="relative py-24 px-8">
       <div className="max-w-7xl mx-auto">
@@ -47,6 +49,7 @@ const FeaturesSection = () => {
               <div
                 key={feature.id}
                 className="group relative"
+                onClick={() => navigate(`/detail/${feature.id}`)}
               >
                 <div className="absolute inset-0 bg-gradient-to-b from-purple-600/30 to-purple-800/30 rounded-lg blur-xl group-hover:blur-2xl transition-all duration-300" />
                 <div 
