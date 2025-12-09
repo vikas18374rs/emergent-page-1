@@ -1,23 +1,24 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Gift, Zap, Target } from 'lucide-react';
 
 const rewards = [
   {
-    id: 1,
+    id: 'legendary-drop-pactspirit',
     title: 'Legendary Drop Pactspirit Selection Chest',
     description: 'Free reward',
     icon: Gift,
     image: 'https://images.unsplash.com/photo-1607082349566-187342175e2f?w=400',
   },
   {
-    id: 2,
+    id: 'legendary-battle-pactspirit',
     title: 'Legendary Battle Pactspirit Selection Chest',
     description: 'Limited time',
     icon: Zap,
     image: 'https://images.unsplash.com/photo-1535083783855-76ae62b2914e?w=400',
   },
   {
-    id: 3,
+    id: 'activation-medium-motionless',
     title: 'Activation Medium: Motionless',
     description: 'Auto-battle unlock',
     icon: Target,
