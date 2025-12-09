@@ -1,5 +1,6 @@
 import React from 'react';
-import { Globe, ShoppingCart } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
+import { Globe, ShoppingCart, Users } from 'lucide-react';
 import { Button } from './ui/button';
 
 const Header = () => {
