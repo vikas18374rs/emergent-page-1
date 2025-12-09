@@ -1,23 +1,24 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Layers, Users, Wand2 } from 'lucide-react';
 
 const features = [
   {
-    id: 1,
+    id: 'ethereal-prisms',
     icon: Layers,
     title: 'Ethereal Prisms unlock ultimate talent customization',
     description: 'Reforge your talents with Ethereal Prisms and create unique build combinations.',
     image: 'https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=600',
   },
   {
-    id: 2,
+    id: 'community-kismet',
     icon: Users,
     title: 'New Kismet Unfolds with Community Creativity',
     description: 'Discover community-created content and share your own creative builds.',
     image: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600',
   },
   {
-    id: 3,
+    id: 'combo-skill-system',
     icon: Wand2,
     title: 'Brand-new Combo Skill System',
     description: 'Break the limits with innovative combo skills for even richer gameplay.',
